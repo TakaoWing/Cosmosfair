@@ -1,0 +1,88 @@
+@charset "UTF-8";
+body{
+  margin:0 auto;
+  max-width: 100%;
+  overflow: auto;
+}
+#body-title{
+  position: relative;
+  margin: 2vw 0;
+  padding:0;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#body-title img{
+  border-radius: 1.5vw;
+}
+#body-title h1{
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  top: 0;
+  padding: 3vw 0;
+  height: 18vw;
+  color: white;
+  font-size: 10vw;
+}
+#info h2{
+  margin: 2vw;
+  font-size: 8vw;
+}
+#info .text-box{
+  margin: 2vw 6vw;
+  margin-bottom: 20vw;
+  font-size: 5vw;
+}
+.access-map{
+  width: 100%;
+}
+#ivent h2{
+  margin-top: 150px
+}
+/*▲コスモス祭について▲*/
+
+
+/*▼PC表示用▼*/
+@media screen and (min-width: 980px){
+  .image-fluid{
+    width: 70%;
+  }
+  #body-title h1{
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  top: 0;
+  padding: 3vw 0;
+  height: 18vw;
+  color: white;
+  font-size: 6vw;
+}
+#info h2{
+  margin: 2vw;
+  font-size: 4.0vw;
+}
+#info .text-box{
+  margin: 2vw 6vw;
+  margin-bottom: 5vw;
+  font-size: 2vw;
+}
+#info ol {
+  font-size:27px;
+}
+p{
+  font-size:27px;
+}
+#access ul{
+  font-size:25px;
+}
+#ivent h2{
+  margin-top: 130px
+}
+
+.access-map{
+  width: 70%;
+}
+}

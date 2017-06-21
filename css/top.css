@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+body{
+  margin:0 auto;
+  max-width: 100%;
+  overflow: auto;
+}
+dir{
+  margin: 0;
+  padding: 0;
+}
+.img-fluid{
+  width: 100%;
+}
+/*▼ヘッダーメニュー　ースマホ用ー▼*/
+#header-menu{
+  background-color: #3a0656;
+}
+
+#header-menu .navbar-brand{
+  margin:auto;
+}
+#header-menu .navbar-brand{
+  max-width:35%;
+  padding:0;
+}
+#header-menu .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#header-menu .navbar-collapse .navbar-nav .nav-item a{
+  color:#fff;
+}
+#header-menu-pc{
+  display: none;
+}
+/*▲ヘッダーメニュー　ースマホ用ー▲*/
+
+#top-body{
+  padding:0;
+  margin:0;
+}
+
+/*▼トップ画像▼*/
+#top-body #top-img{
+  padding:0;
+  margin:0;
+  position: relative;
+}
+#top-body #top-img #img-front{
+  position: absolute;
+  max-width: 60%;
+  left:0;
+  top:0;
+}
+/*▲トップ画像▲*/
+
+/*▼更新情報　ースマホ限定ー▼*/
+#sp-update-info{
+  width:100%;
+  padding:0 1vw;
+  background-color: #F3F3F3;
+
+}
+
+#sp-update-info p{
+  padding:0;
+  margin:0;
+}
+
+#sp-update-info p:first-child{
+  font-size: 4vw;
+}
+
+#sp-update-info p:last-child{
+  margin:0 auto;
+  font-size: 4vw;
+  text-align: center;
+}
+/*▲更新情報　ースマホ限定ー▲*/
+
+/*▼トップメニュー▼*/
+#top-menu{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+#top-menu ul{
+  display: block;
+  margin:0;
+  padding:0;
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+#top-menu ul li{
+  display: block;
+  width:50%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#top-menu ul li a{
+  display: block;
+  width:100%;
+  position: relative;
+  text-decoration: none;
+}
+#top-menu ul li a p{
+  position: absolute;
+  bottom: 4px;
+  color:white;
+  font-size: 4vw;
+  width:100%;
+  padding:0;
+  margin: 0;
+  text-align: center;
+}
+/*▲トップメニュー▲*/
+
+/*▼活動レポート▼*/
+#top-report{
+  width: 100%;
+}
+#top-report-title{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #F3F3F3;
+}
+#top-report-title p{
+  display: block;
+  font-size: 6vw;
+  padding:0;
+  margin: 2vw;
+}
+#top-report-title a{
+  display: block;
+  font-size: 4vw;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  height: 20px;
+}
+.top-report-items{
+  display: table;
+  list-style: none;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0;
+  padding:0;
+}
+.top-report-items a{
+  display: block;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+.top-report-items li{
+  width: 50%;
+  float: left;
+  font-size: 4vw;
+  display: table-cell;
+  height: 50vw;
+  position: relative;
+}
+.top-report-items .report-word{
+ padding: 2vw;
+}
+.top-report-items .report-word p:first-child{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+.top-report-items .report-word .title-box{
+  font-size: 5vw;
+  letter-spacing : 0.4vw;
+  height: 40vw;
+  padding: 0 5vw;
+  display: table-cell;
+  vertical-align: middle;
+}
+.top-report-items .report-word p:last-child{
+  position: absolute;
+  font-size: 2vw;
+  margin: 2vw;;
+  bottom: 0;
+  right: 0;
+}
+
+/*▲活動レポート▲*/
+
+/*▼フッターメニュー　ースマホ限定ー▼*/
+#footer,#footer-menu{
+  width: 100%;
+  margin: 0;
+  padding:0;
+  background-color: #353434;
+}
+#footer-menu ul{
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#footer-menu ul:first-child{
+  border-bottom:0.1vw solid #000;
+}
+#footer-menu ul:first-child li{
+  width: 50%;
+  float: left;
+  border: 0.1vw solid #000;
+}
+#footer-menu ul:first-child li a,
+#footer-menu #footer-list-last{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #aaa;
+  padding: 2vw 0;
+}
+#footer-menu #footer-list-last{
+  border-bottom: 0.4vw solid #000;
+}
+#footer-menu ul:last-child{
+  width: 70%;
+  margin: 2vw auto;
+}
+#footer-menu ul:last-child li{
+  width: 33%;
+  float: left;
+  padding:0  4vw;
+}
+#footer-menu ul:last-child li a{
+  display: block;
+  width: 100%;
+}
+/*▲フッターメニュー▲*/
+
+/*▼フッター▼*/
+#footer p{
+  font-size: 2vw;
+  color: #aaa;
+  margin: 0;
+}
+/*▲フッター▲*/
+
+/*▼PC表示用▼*/
+@media screen and (min-width: 980px){
+  .sp{
+    display: none;
+  }
+  #top-body{
+    float: right;
+  }
+  #top-body,
+  #footer{
+    width: 80%;
+    overflow: hidden;
+  }
+  /*▼ヘッダーメニュー▼*/
+  #header-menu-pc{
+    display: block;
+    overflow: hidden;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    background-color: #F3F3F3;
+    position: fixed;
+  }
+  #header-menu-pc a{
+    display: block;
+  }
+  #header-menu-pc #logo{
+    margin-bottom: 120px;
+  }
+  #header-menu-pc #logo img{
+    padding: 10px;
+  }
+  #header-menu-pc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #header-menu-pc #menu-list-pc li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin: 30px 0;
+  }
+  #header-menu-pc #menu-list-pc li a:hover{
+    background: #3a0656;
+    color: white;
+  }
+  #header-menu-pc #sns-pc{
+    width: 80%;
+    margin:0 auto;
+  }
+  #header-menu-pc #sns-pc li{
+    width: 33%;
+    float: left;
+    padding: 5px;
+  }
+  /*▲ヘッダーメニュー▲*/
+  /*▼トップメニュー▼*/
+  #top-img,
+  #top-menu{
+    width: 50%;
+    float: left;
+  }
+  /*▼トップメニュー▼*/
+  #top-menu ul li a p{
+    font-size: 20px;
+  }
+  /*▲トップメニュー▲*/
+  /*▼活動レポート▼*/
+  #top-report{
+    float: left;
+  }
+  #top-report-title p{
+    font-size: 30px;
+    margin: 10px;
+  }
+  #top-report-title a{
+    font-size: 15px;
+  }
+  .top-report-items{
+    width: 50%;
+    float: left;
+  }
+  .top-report-items .report-word{
+    padding: 0;
+  }
+  .top-report-items li{
+    font-size: 18px;
+    height: 0%;
+    float: right;
+  }
+  .top-report-items .report-word .title-box{
+    font-size:20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 160px;
+  }
+  .top-report-items .report-word p:last-child{
+    font-size: 20px;
+    margin:20px;
+  }
+  /*▲活動レポート▲*/
+  /*▼フッター▼*/
+  #footer{
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+  }
+  #footer p{
+    font-size: 20px;
+  }
+  /*▲フッター▲*/
+}
+/*▲PC表示用▲*/
